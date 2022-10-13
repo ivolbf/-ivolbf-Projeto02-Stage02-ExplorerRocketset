@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    display: grid;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+    min-height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 65px;
+    margin-bottom:55px ;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap:48px;
+    
+}
+nav ul a {
+    font-family: 'Mulish';
+    font-style: normal;
+    opacity: 0.5;
+    font-size: 18px;
+    line-height: 23px;
+    color: #1F1534;
+    
+
+}
+nav ul a:hover{
+    font-weight: bold;
+    opacity: 1;
+}
+main{
+    display: grid;
+    gap: 100px;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 40px;
+    
+}
+main span{
+    color: #89C5CC;
+}
+.information{
+    padding: 40px 0;
+}
+.section-title{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 49px;
+    line-height: 56px;
+    color: #000000;
+    margin-bottom: 40px;
+    
+}
+.section-text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #7D7987;
+    margin-bottom: 40px;
+}
+
+.selection-buttom{
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    width: 190px;
+    height: 56px;
+    padding: 16px 32px;
+    background: #69B99D;
+    border-radius: 4px;
+    color: #F9F9F9;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+    
+}
+.selection-buttom:hover{
+
+    background: #025c3c;
+}
+footer{
+    text-align: center;
+    
+}
+footer p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #000000;
+}
+footer a{
+    color: #000000; 
+    font-weight: 700;   
+}
+.decoration{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
